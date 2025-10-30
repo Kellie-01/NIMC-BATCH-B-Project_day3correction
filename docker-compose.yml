@@ -18,7 +18,7 @@ services:
       POSTGRES_DB: nimcdb
       POSTGRES_HOST: db
     ports:
-      - "5005:5000"
+      - "5000:5000"
     depends_on:
       - db
   #frontend section
